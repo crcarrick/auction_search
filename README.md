@@ -1,6 +1,8 @@
 ### Setup
 
-Install dependencies
+1. Install [node](https://nodejs.org/en)
+2. Clone this repository
+3. Install project dependencies
 
 ```shell
 npm install
@@ -10,9 +12,9 @@ Obtain a battle.net API client id and client secret [here](https://develop.battl
 
 1. Make up a Client Name
 2. Leave Redirect URLs empty
-3. Check "I do not have a service URL for this client.
+3. Check "I do not have a service URL for this client".
 4. Write something about Intended Use
-5. Copy down your Client ID and Client Secreet
+5. Copy down your Client ID and Client Secret
 
 Open the `.env` file and fill in CLIENT_ID and CLIENT_SECRET eg.
 
